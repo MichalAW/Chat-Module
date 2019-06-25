@@ -4,4 +4,4 @@ Our "client" who commissioned us to do the application wants to communicate with
 
 repo --> https://github.com/MichalAW/26.Chat-Module.git
 
-site -->
+site --> https://michalaw.github.io/26.Chat-Module/
