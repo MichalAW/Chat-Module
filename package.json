@@ -1,0 +1,24 @@
+{
+    "name": "26.Chat-Module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "test:echo": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MichalAW/26.Chat-Module.git"
+    },
+    "keywords": [],
+    "author": "MichalAW michal.wanta@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MichalAW/26.Chat-Module/issues"
+    },
+    "homepage": "https://github.com/MichalAW/26.Chat-Module#readme",
+    "devDependencies": {
+    },
+    "dependencies": {
+    }
+}
