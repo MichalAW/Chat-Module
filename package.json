@@ -17,8 +17,9 @@
         "url": "https://github.com/MichalAW/26.Chat-Module/issues"
     },
     "homepage": "https://github.com/MichalAW/26.Chat-Module#readme",
-    "devDependencies": {
-    },
+    "devDependencies": {},
     "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.2.0"
     }
 }
