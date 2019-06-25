@@ -1,6 +1,5 @@
 # 26.Chat-Module
-desc:
-Our Chat designed on SCRUM
+desc: Chat designed on SCRUM
 
 repo --> https://github.com/MichalAW/26.Chat-Module.git
 
