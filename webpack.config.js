@@ -13,6 +13,17 @@ module.exports = {
         path: path.resolve(__dirname, 'public'),
         filename: 'app.bundle.js'
     },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                options: {
+                    presets: ['env']
+                }
+            }
+        ]
+    },
     devServer: {
         proxy: {
             '/socket.io': {
