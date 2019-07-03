@@ -18,7 +18,6 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
-                @babel/preset-env
             }
         ]
     },
