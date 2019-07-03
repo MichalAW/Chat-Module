@@ -19,10 +19,7 @@
     },
     "homepage": "https://github.com/MichalAW/26.Chat-Module#readme",
     "devDependencies": {
-        "babel-core": "^6.26.3",
         "babel-loader": "^8.0.6",
-        "babel-preset-env": "^1.7.0",
-        "babel-preset-react": "^6.24.1",
         "css-loader": "^3.0.0",
         "express": "^4.17.1",
         "html-webpack-plugin": "^3.2.0",
@@ -35,7 +32,9 @@
         "webpack-dev-server": "^3.7.2"
     },
     "dependencies": {
-        "@babel/core": "^7.3.3",
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "@babel/preset-react": "^7.0.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "socket.io-client": "^2.2.0"
