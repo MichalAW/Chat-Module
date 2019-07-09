@@ -15,10 +15,6 @@ app.get('/', (req, res) => {
   res.sendFile(`${__dirname}/index.html`);
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(`${__dirname}/index.html`);
-});
-
 io.on('connection', (socket) => {
     socket.on('disconnect', () => {
         usersService.removeUser(socket.id);
@@ -37,7 +33,7 @@ io.on('connection', (socket) => {
         });
     });
     // the client listens to the chat input message
-    socket.io('join', (name) => {
+    socket.on('join', (name) => {
         // we save the user who appeared in the application to the website holding the list of people in the chat
         usersService.addUser({
             id: socket.id,

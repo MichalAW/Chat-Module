@@ -5,7 +5,6 @@ class MessageForm extends Component {
     constructor(props) {
         super(props);
         this.state = {text: ''};
-        this.setState({ text : e.target.value });
     }
 
   handleSubmit(e) {
@@ -27,7 +26,7 @@ class MessageForm extends Component {
             <form className={styles.MessageForm} onSubmit={e => this.handleSubmit(e)}>
                 <input
                     className={styles.MessageInput}
-                    onChange={e => this.changeHandler(e)}
+                    onChange={this.changeHandler.bind(this)}
                     value={this.state.text}
                     placeholder='Message'
                 />

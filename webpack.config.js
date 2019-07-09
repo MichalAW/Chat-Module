@@ -34,6 +34,7 @@ module.exports = {
             }
         ]
     },
+    plugins,
     devServer: {
         proxy: {
             '/socket.io': {
