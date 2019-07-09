@@ -38,19 +38,19 @@ io.on('connection', (socket) => {
     });
 });
 
-// klient nasłuchuje na wiadomość wejścia do czatu
-socket.on('join', (name) => {
-    // użytkownika, który pojawił się w aplikacji, zapisujemy do serwisu trzymającego listę osób w czacie
+// the client listens to the chat input message
+socket.io('join', (name) => {
+    // we save the user who appeared in the application to the website holding the list of people in the chat
     usersService.addUser({
         id: socket.id,
         name
     });
-    // aplikacja emituje zdarzenie update, które aktualizuje informację na temat listy użytkowników każdemu nasłuchującemu na wydarzenie 'update'
+    // the application emits an update event that updates information about the list of users to everyone listening to the 'update' event
     io.emit('update', {
         users: usersService.getAllUsers()
     });
 });
 
 server.listen(3000, () => {
-  console.log('listening on *:3000');
+    console.log('listening on *:3000');
 });
