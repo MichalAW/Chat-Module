@@ -36,18 +36,17 @@ io.on('connection', (socket) => {
             from: name
         });
     });
-});
-
-// the client listens to the chat input message
-socket.io('join', (name) => {
-    // we save the user who appeared in the application to the website holding the list of people in the chat
-    usersService.addUser({
-        id: socket.id,
-        name
-    });
-    // the application emits an update event that updates information about the list of users to everyone listening to the 'update' event
-    io.emit('update', {
-        users: usersService.getAllUsers()
+    // the client listens to the chat input message
+    socket.io('join', (name) => {
+        // we save the user who appeared in the application to the website holding the list of people in the chat
+        usersService.addUser({
+            id: socket.id,
+            name
+        });
+        // the application emits an update event that updates information about the list of users to everyone listening to the 'update' event
+        io.emit('update', {
+            users: usersService.getAllUsers()
+        });
     });
 });
 
