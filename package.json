@@ -1,5 +1,5 @@
 {
-	"name": "socket-chat-example",
+	"name": "26.Chat-Module",
 	"version": "1.0.0",
 	"description": "CHAT project based on socket.io",
 	"main": "index.js",
