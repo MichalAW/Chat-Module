@@ -1,7 +1,10 @@
 # 26.Chat-Module
 desc: Chat designed on SCRUM,based on socket.io
 
-repo --> https://github.com/MichalAW/26.Chat-Module.git
+repo --> https://github.com/MichalAW/Chat-Module.git
+
+First own messenger! and one of my favourites !
+I wanted to create app for communicate with other users (like facebook, or whats up), after many attempts I created first messenger. 
 
 ## Comentery is in native polish language, for educative resons.
 
