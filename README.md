@@ -12,7 +12,7 @@ repo --> https://github.com/MichalAW/26.Chat-Module.git
 2. Open localhost 8080
 3. Write your nickname
 
-4. CHAT APP detects available people, you are able to send a message and read it to the other person
+4. CHAT APP detects available people, you are able to send a message and read it from the other person
 
 5. Other person must do same 1-3 numbers.
 
