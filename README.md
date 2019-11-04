@@ -14,7 +14,7 @@ I wanted to create app for communicate with other users (like facebook, or whats
 1. Run sript 'start'.
 2. Open localhost 8080
 3. Write your nickname
-4. CHAT APP detects available people, you are able to send a message and read it to the other person
+4. CHAT APP detects available people, you are able to send a message and read it from the other person
 5. Another person must do same 1-3 numbers.
 
 ## Description app 
