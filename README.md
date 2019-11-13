@@ -6,21 +6,18 @@ repo --> https://github.com/MichalAW/Chat-Module.git
 First own messenger! and one of my favourites !
 I wanted to create app for communicate with other users (like facebook messenger, or whats up), after many attempts I created first chat messenger :)
 
-## Comentery is in native polish language, for educative resons.
-
-
 ## How it works
 1. Download repository
 
-1. Run sript 'start'.
+2. Run sript 'start'.
 
-2. Open localhost 8080
+3. Open localhost 8080
 
-3. Write your nickname
+4. Write your nickname
 
-4. CHAT APP detects available people, you are able to send a message and read it from the other person
+5. CHAT APP detects available people, you are able to send a message and read it from the other person
 
-5. Other person must do same 1-3 numbers.
+6. Other person must do same 1-3 numbers.
 
 ## Description app 
 As a chat user
